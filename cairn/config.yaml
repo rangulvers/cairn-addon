@@ -2,7 +2,7 @@ name: Cairn
 version: "0.9.0-rc1"
 slug: cairn
 description: Haushalts-Inventar. Übernimmt Geräte direkt aus Home Assistant.
-url: https://github.com/rangulvers/attic
+url: https://github.com/rangulvers/cairn-addon
 arch:
   - amd64
   - aarch64

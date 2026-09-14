@@ -58,7 +58,7 @@ ein, ein HA-Backup sichert also auch das Inventar.
 ## Fehlersuche
 
 **Panel bleibt leer.** Seite neu laden (Strg+Shift+R). Wenn es danach bleibt:
-Add-on-Log ansehen und einen Fehlerbericht mit dem Log-Auszug öffnen.
+Add-on-Log ansehen und im Add-on-Repository ein Issue mit dem Log-Auszug öffnen.
 
 **Keine Geräte in der Liste.** Im Add-on-Log nach `supervisor_token_missing`
 suchen. Tritt das auf, das Add-on neu starten — der Supervisor erneuert den
@@ -70,10 +70,4 @@ YAML-Integrationen) tauchen absichtlich nicht auf.
 
 **Nach einem Update fehlen Daten.** Sollte nicht passieren — `/data` bleibt über
 Updates erhalten. Falls doch: HA-Backup vor dem Update wiederherstellen und
-einen Fehlerbericht öffnen.
-
-## Quellcode
-
-Die Anwendung liegt in <https://github.com/rangulvers/attic>. Dieses Repository
-enthält nur die Add-on-Verpackung; die Images kommen fertig gebaut aus der
-GitHub Container Registry.
+ein Issue öffnen.

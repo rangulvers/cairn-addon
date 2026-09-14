@@ -1,7 +1,7 @@
 # Cairn Add-ons für Home Assistant
 
-Add-on-Repository für [Cairn](https://github.com/rangulvers/attic), ein
-Haushalts-Inventar, das seine Geräte direkt aus Home Assistant übernimmt.
+Add-on-Repository für **Cairn**, ein Haushalts-Inventar, das seine Geräte
+direkt aus Home Assistant übernimmt.
 
 ## Installation
 
@@ -25,4 +25,4 @@ Danach erscheint **Cairn** im Store.
 Die Images werden für `amd64` und `aarch64` vorgebaut und aus der GitHub
 Container Registry geladen — auf einem Raspberry Pi wird nichts kompiliert.
 
-Der Anwendungs-Quellcode liegt in <https://github.com/rangulvers/attic>.
+Fragen und Fehlerberichte bitte als Issue in diesem Repository.
